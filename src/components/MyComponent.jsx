@@ -4,7 +4,7 @@ import API from "./../config/api";
 export const MyComponent = (props) => {
   const { name, setName } = props;
   const [trainers, setTrainers] = useState({});
-
+    //hola
   useEffect(() => {
     getTrainers();
   }, []);
